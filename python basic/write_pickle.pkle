@@ -1,0 +1,41 @@
+# import pickle 
+# l=[10,20,30,40]
+# file=open("write_data.txt","wb")
+
+# pickle.dump(l,file)
+# pickle.close()
+# import pickle
+
+# Example object to pickle
+# data = {"name": "John", "age": 25}
+
+# # Open a file in write-binary mode
+# file = open("write_data.txt", "wb")
+# pickle.dump(data, file)  # Serialize the data
+# file.close()  # Close the file explicitly
+# name=input("enter the name is :")
+# age=int(input('enter the age is :'))
+# d={'name':name ,'age':age}
+# file=open('write_data.txt','wb')
+
+# pickle.dump(list,file)
+# file.close()
+# l=[10,20,30,40]
+# file_list=open("write_data.txt","wb")
+# pickle.dump(l,file_list)
+# file_list.close()
+# banking_account_checkbalance=int(input('enter the amount '))
+# if banking_account_checkbalance >10000:
+#     print('you have to out the money in acoount dear')
+#     if banking_account_checkbalance < 50000:
+#         print('no out the money in acount bz you have need a some money for a patient is :')
+# d={"banking_account_checkbalance":banking_account_checkbalance}
+# file_bank=open('write_data.txt','wb')
+# pickle.dump(d,file_bank)
+# file_bank.close()   
+import pickle
+d={"name":"ishfaq","age":23}
+file=open('write_data_pickle.pkle','rb')
+pickle.dump(d,file)
+file.close()
+
