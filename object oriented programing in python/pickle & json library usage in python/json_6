@@ -1,0 +1,5 @@
+import json
+x='{"name": "alice","age":"25","city":"newyork"}'
+y=json.loads(x)
+for key, value in data.items():
+    print(f"{key}:{value}")

@@ -1,0 +1,7 @@
+# name=input("enter the name ")
+# age=int(input("enter the age is :"))
+# import json
+# x='{"name":"name","age":"age"}'
+# y=json.loads(x)
+# print(type(y))
+# print(y)
